@@ -22,7 +22,7 @@ jobs:
         # pip install -r requirements.txt
         echo "No dependencies to install."
         git add hello.py .github/workflows/python-app.yml
-git commit -m "Add hello.py and GitHub Actions workflow"
+
 git push origin main
 
     - name: Run script
