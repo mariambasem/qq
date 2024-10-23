@@ -23,7 +23,7 @@ jobs:
         echo "No dependencies to install."
         git add hello.py .github/workflows/python-app.yml
 
-git push origin main
+      git push origin main
 
     - name: Run script
       run: python hello.py
